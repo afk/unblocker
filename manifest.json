@@ -1,0 +1,23 @@
+{
+    "name": "unblocker",
+    "author": "Efe Aydın",
+    "version": "0.1",
+    "description": "An extension to unblock websites which are blocked in Turkey",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.wikipedia.org/*",
+        "*://*.imgur.com/*"
+    ],
+    "icons": {
+        "16": "unblocker16.png",
+        "32": "unblocker32.png",
+        "48": "unblocker48.png",
+        "128": "unblocker128.png"
+    },
+    "manifest_version": 2
+}
