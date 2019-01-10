@@ -14,10 +14,10 @@
         "*://*.imgur.com/*"
     ],
     "icons": {
-        "16": "unblocker16.png",
-        "32": "unblocker32.png",
-        "48": "unblocker48.png",
-        "128": "unblocker128.png"
+        "16": "icons/unblocker16.png",
+        "32": "icons/unblocker32.png",
+        "48": "icons/unblocker48.png",
+        "128": "icons/unblocker128.png"
     },
     "manifest_version": 2
 }
